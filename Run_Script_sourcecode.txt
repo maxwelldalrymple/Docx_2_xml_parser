@@ -1,0 +1,50 @@
+@echo off
+
+echo WELCOME TO THE TMO PARSER DOCX PARSER CREATED BY: MAXWELL DALRYMPLE(02/2020)
+echo.
+pause
+echo.
+set /P name="What Is Your Name? "
+echo.
+echo Hello %name%, Maxwell will start parsing your TMO files right away! REMEMBER to use the parser effectively, all the TMO files you need to parse MUST to be located in Coding\Files\TMO_Sheets folder for this program to work.
+echo.
+pause
+echo.
+set /P var="Are you sure all your TMO files in the above folder?[Y/N]"
+
+
+if /I "%var%"== "Y" goto :yes
+if /I "%var%"== "N" goto :no
+if /I "%var%"== "y" goto :yes
+if /I "%var%"== "n" goto :no
+if /I "%var%"== "Yes" goto :yes
+if /I "%var%"== "No" goto :no
+if /I "%var%"== "yes" goto :yes
+if /I "%var%"== "no" goto :no
+
+:yes
+echo.
+echo Thanky you. Maxwell is ready to parse your TMO files now. Press Enter to start the parsing process...
+echo.
+pause
+cd C:\Users\dalrympm\Documents\Coding\Files\TMO_Sheets
+start py run.py
+exit
+
+:no
+echo.
+echo Please double check now and make sure all your TMO files are in the correct folder! Maxwell is waiting....
+echo.
+pause
+echo.
+set /P var="Are toy sure all your TMO files in the proper folder now?[Y/N]"
+
+if /I "%var%"== "Y" goto :yes
+if /I "%var%"== "N" goto :no
+if /I "%var%"== "y" goto :yes
+if /I "%var%"== "n" goto :no
+if /I "%var%"== "Yes" goto :yes
+if /I "%var%"== "No" goto :no
+if /I "%var%"== "yes" goto :yes
+if /I "%var%"== "no" goto :no
+exit
