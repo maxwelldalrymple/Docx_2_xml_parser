@@ -1,5 +1,5 @@
 # Docx_2_xml_parser
-                                                //Copyright 2020 Maxime Espoir Darymple//
+                             //Copyright 2020 Maxime Espoir Darymple//
 	This software was made for my Winter Co-op 2020 term working for the Darlington Nuclear Power 
 	plant<https://www.opg.com/strengthening-the-economy/our-projects/darlington-refurbishment/project-team/>. 
 	This software is written in python, its function are parsing exiting (private) .docx documents [Properties of Canatom Group] 
