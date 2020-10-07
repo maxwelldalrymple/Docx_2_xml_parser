@@ -28,7 +28,7 @@ echo Thanky you. Maxwell is ready to parse your TMO files now. Press Enter to st
 echo.
 pause
 cd C:\Users\dalrympm\Documents\Coding\Files\TMO_Sheets
-start py run.py
+start py Run.py
 exit
 
 :no
