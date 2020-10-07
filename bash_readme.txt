@@ -4,7 +4,7 @@ Instructions for the TMO Paser;
 
 1) Place all the TMO files you would like to parse in the "TMO_Sheets" folder. 
 2) Press the windows key and type "CMD" then press the enter key. Now you are in the command prompt enviroment.
-3) Type "cd C:\Users\dalrympm\Documents\Coding\Files\TMO_Sheets" then press the enter key.
+3) Type "cd C:\Users\dalrympm\Documents\Coding\Files\TMO_Sheets"[Your Path] then press the enter key.
 	- Now you are in the "TMO sheet" folder directory
 4) Type "py Run.py", this runs the program that parses the TMO files. It will say "DONE!!" when completed. 
 
