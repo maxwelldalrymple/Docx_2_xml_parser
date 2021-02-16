@@ -31,7 +31,7 @@ def excel(filename):
 				dates = filename[span[1]+1:leng-5]
 				date.append(dates)
 
-	workbook = xlsxwriter.Workbook('C:/Users/dalrympm/Documents/Coding/Files/TMO_Spread_Sheets/'+str(filename_)+"_spreadsheet.xlsx")
+	workbook = xlsxwriter.Workbook('C:/Users'+str(filename_)+"_spreadsheet.xlsx")
 
 	worksheet = workbook.add_worksheet()
 
